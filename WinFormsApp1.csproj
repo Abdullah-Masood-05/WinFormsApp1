@@ -6,6 +6,23 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    
+    <!-- Project Metadata -->
+    <AssemblyName>WinFormsCalculator</AssemblyName>
+    <RootNamespace>WinFormsApp1</RootNamespace>
+    <Company>Calculator Project</Company>
+    <Product>WinForms Calculator</Product>
+    <Description>A comprehensive calculator application with basic arithmetic, trigonometric, and advanced mathematical operations.</Description>
+    <Version>1.0.0</Version>
+    <Authors>Calculator Contributors</Authors>
+    <PackageProjectUrl>https://github.com/yourusername/WinFormsApp1</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yourusername/WinFormsApp1</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    
+    <!-- XML Documentation -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
   </PropertyGroup>
 
 </Project>
